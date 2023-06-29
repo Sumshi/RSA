@@ -42,6 +42,8 @@ we will only run your executable factors
 9797973
 49
 239809320265259
+
+
 julien@ubuntu:~/factors$ time ./factors tests/test00
 4=2*2
 12=6*2
