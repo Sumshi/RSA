@@ -9,7 +9,6 @@ OS needs to be Standard Ubuntu 20.04 LTS/
 
 	TASK 0:
 Factorize as many numbers as possible into a product of two smaller numbers.
-
 Usage: factors <file>
 where <file> is a file containing natural numbers to factor.
 One number per line
@@ -25,7 +24,10 @@ Your program should run without any dependency: You will not be able to install 
 Time limit: Your program will be killed after 5 seconds if it hasn’t finish
 Push all your scripts, source code, etc… to your repository
 we will only run your executable factors
-julien@ubuntu:~/factors$ cat tests/test00 
+
+
+
+	julien@ubuntu:~/factors$ cat tests/test00 
 4
 12
 34
@@ -63,16 +65,14 @@ julien@ubuntu:~/factors$
 
 	TASK 1:
 RSA Laboratories states that: for each RSA number n, there exist prime numbers p and q such that
-
 n = p × q. The problem is to find these two primes, given only n.
-
 This task is the same as task 0, except:
-
 p and q are always prime numbers
 There is only one number in the files
 How far can you go in less than 5 seconds?
+	Read: RSA Factoring Challenge
 
-Read: RSA Factoring Challenge
+
 julien@ubuntu:~/RSA Factoring Challenge$ cat tests/rsa-1
 6
 julien@ubuntu:~/RSA Factoring Challenge$ ./rsa tests/rsa-1
